@@ -88,6 +88,77 @@
 
 ---
 
+✅ **현재까지 진행한 과정에서 가상환경(venv)에 설치한 패키지 목록을 정리해드릴게요.**  
+📌 **이 패키지들은 AI 모델 학습, 데이터 전처리, API 구축을 위해 설치한 것들입니다.**  
+
+### **1️⃣ 기본 환경 설정 (FastAPI + 데이터베이스)**
+```bash
+pip install fastapi uvicorn sqlalchemy pymysql passlib python-jose
+```
+✔ `fastapi` → FastAPI 웹 프레임워크  
+✔ `uvicorn` → FastAPI 실행 서버  
+✔ `sqlalchemy` → MySQL ORM (데이터베이스 연결)  
+✔ `pymysql` → MySQL 연결  
+✔ `passlib` → 비밀번호 해싱  
+✔ `python-jose` → JWT 토큰 생성  
+
+---
+
+### **2️⃣ AI 모델 학습을 위한 패키지**
+```bash
+pip install torch torchaudio transformers librosa soundfile numpy pandas
+```
+✔ `torch` / `torchaudio` → PyTorch 및 오디오 처리  
+✔ `transformers` → Wav2Vec 2.0, NLP 모델 사용  
+✔ `librosa` → 오디오 데이터 처리  
+✔ `soundfile` → 오디오 파일 변환  
+✔ `numpy` → 데이터 연산  
+✔ `pandas` → 데이터프레임 관리  
+
+---
+
+### **3️⃣ OpenCV 및 영상 분석 (표정, 시선 분석)**
+```bash
+pip install opencv-python mediapipe tensorflow keras
+```
+✔ `opencv-python` → 이미지 처리  
+✔ `mediapipe` → 시선 추적 및 얼굴 감지  
+✔ `tensorflow` / `keras` → 표정 분석 CNN 모델  
+
+---
+
+### **4️⃣ 데이터 전처리 및 AI 평가 모델**
+```bash
+pip install scikit-learn datasets
+```
+✔ `scikit-learn` → NLP 데이터 분석 (TF-IDF, SVM 등)  
+✔ `datasets` → NLP 모델 학습 데이터 다운로드  
+
+---
+
+### **5️⃣ API 호출 및 인증 관련**
+```bash
+pip install requests httpx
+```
+✔ `requests` → API 호출  
+✔ `httpx` → 비동기 API 호출  
+
+---
+
+# ✅ **정리: 전체 패키지 설치 명령어**
+📌 **이제 `requirements.txt` 파일을 생성해서 한 번에 설치할 수 있도록 저장하세요.**
+```bash
+pip freeze > requirements.txt
+```
+📌 **새로운 환경에서 한 번에 설치할 때**
+```bash
+pip install -r requirements.txt
+```
+
+✅ **이제 가상환경에서 설치된 패키지를 문서화했으니, AI 모델 학습을 진행할 수 있습니다!**  
+
+---
+
 ✅ **최종 목표:** 2024년 5월까지 AI 면접 시스템을 완성하고 실전 테스트 진행!
 
 🚀 **배포 방식 결정이 필요하며, Vercel, Railway, Supabase, Cloudflare R2, Hugging Face Spaces를 활용해 무료 배포 가능!**
