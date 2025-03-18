@@ -22,7 +22,7 @@
 - **음성 처리:** Librosa, Pydub, FFmpeg
 - **영상 분석:** OpenCV, MediaPipe, Dlib
 - **데이터 저장:** MySQL (면접 결과 저장)
-- **배포:** Vercel, Railway, Supabase, Cloudflare R2, Hugging Face Spaces 활용
+- **배포:** 추후 협의 후 확정 예정
 
 ---
 
