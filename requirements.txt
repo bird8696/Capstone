@@ -1,1 +1,26 @@
+# FastAPI 및 API 관련 패키지
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+passlib
+python-jose
+requests
+httpx
 
+# AI 모델 및 데이터 처리 패키지
+torch
+torchaudio
+transformers
+librosa
+soundfile
+numpy
+pandas
+scikit-learn
+datasets
+
+# 영상 분석 및 머신러닝
+opencv-python
+mediapipe
+tensorflow
+keras
