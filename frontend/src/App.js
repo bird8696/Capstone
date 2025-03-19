@@ -14,7 +14,7 @@ function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>🌍 React + Express 연동 성공!</h1>
-      <h2>백엔드 메시지: {message}</h2>
+      <h2>백엔드 메시지입니다: {message}</h2>
     </div>
   );
 }
