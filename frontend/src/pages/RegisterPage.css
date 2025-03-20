@@ -1,0 +1,139 @@
+/* 전체 컨테이너 */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #007bff, #8e44ad);
+  }
+  
+  /* 회원가입 박스 */
+  .register-box {
+    display: flex;
+    width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  /* 왼쪽 섹션 */
+  .left-section {
+    width: 50%;
+    background: linear-gradient(to right, #8e44ad, #007bff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* 오른쪽 섹션 */
+  .right-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* 제목 */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* 서브타이틀 */
+  .subtitle {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  /* 입력 필드 */
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* 회원가입 버튼 */
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #007bff, #8e44ad);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signup-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* 소셜 로그인 */
+  .social-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .facebook {
+    background: #3b5998;
+  }
+  
+  .twitter {
+    background: #1da1f2;
+  }
+  
+  .google {
+    background: #db4437;
+  }
+  
+  /* 로그인 텍스트 */
+  .login-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .login-link {
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
